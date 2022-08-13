@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.container {
+  margin: 10px;
+  width: 290px;
+  border-radius: 1px;
+}
+
+.container:hover {
+  box-shadow: 0px 3px 18px 1px #000;
+}
+
+.container .image img {
+  width: 290px;
+  height: 290px;
+}
+
+.container .image-description {
+  padding: 20px 16px;
+}
+
+.container .image-description .title {
+  font-size: 15px;
+  color: #0f5ef0;
+  font-weight: 600;
+}
+
+.container .image-description .description {
+  margin-top: 18px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #7a8594;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.container .image-description .details {
+  margin-bottom: 14px;
+  font-size: 12px;
+  color: #7a8594;
+}
